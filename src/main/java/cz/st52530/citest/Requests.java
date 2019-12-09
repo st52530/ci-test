@@ -5,13 +5,10 @@
  */
 package cz.st52530.citest;
 
-import javax.swing.text.View;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.servlet.ModelAndView;
 
 /**
  *
@@ -28,6 +25,6 @@ public class Requests {
     
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String showRootPage(){
-        return "Root failed";
+        return "Root fixed";
     }
 }
