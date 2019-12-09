@@ -28,6 +28,6 @@ public class Requests {
     
     @RequestMapping(value="/", method = RequestMethod.GET)
     public String showRootPage(){
-        return "Root";
+        return "Root failed";
     }
 }
