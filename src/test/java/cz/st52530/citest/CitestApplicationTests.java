@@ -9,7 +9,7 @@ class CitestApplicationTests {
 
 	@Test
 	void contextLoads() {
-            Assertions.assertEquals(2, 1);
+            Assertions.assertEquals(1, 1);
 	}
 
 }
